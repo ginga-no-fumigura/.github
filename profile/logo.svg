@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="銀河の文庫">
+  <!-- 銀河の文庫のロゴ: 雲居の文庫と同じ組み（紋のような丸と開いた本）に、斜めに流れる天の川を置く -->
+  <defs>
+    <clipPath id="ring"><circle cx="256" cy="256" r="184"/></clipPath>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#f5efe0"/>
+  <g clip-path="url(#ring)">
+    <!-- 天の川 -->
+    <path d="M60 262C140 170 210 236 280 190 340 150 390 136 460 84" fill="none" stroke="#9db8e0" stroke-width="46" stroke-linecap="round"/>
+    <g fill="#f5efe0">
+      <circle cx="128" cy="214" r="9"/><circle cx="176" cy="206" r="6"/><circle cx="222" cy="212" r="10"/><circle cx="268" cy="196" r="6"/>
+      <circle cx="308" cy="170" r="9"/><circle cx="352" cy="150" r="6"/><circle cx="396" cy="128" r="9"/>
+    </g>
+    <!-- 川の外の星 -->
+    <g fill="#c9a24b">
+      <circle cx="206" cy="132" r="10"/><circle cx="276" cy="108" r="6"/><circle cx="150" cy="158" r="5"/>
+      <circle cx="330" cy="232" r="10"/><circle cx="262" cy="256" r="6"/><circle cx="394" cy="206" r="6"/><circle cx="152" cy="264" r="5"/>
+    </g>
+  </g>
+  <circle cx="256" cy="256" r="196" fill="none" stroke="#173f7a" stroke-width="24"/>
+  <path d="M112 296 Q184 256 256 296 Q328 256 400 296 L400 366 Q328 326 256 366 Q184 326 112 366 Z" fill="#173f7a"/>
+  <path d="M256 296 V366" stroke="#f5efe0" stroke-width="7"/>
+</svg>
